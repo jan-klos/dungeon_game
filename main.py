@@ -8,7 +8,7 @@ def main_loop():
         decision = input("You have {} hp and {} gold. Do you want to (c)ontinue or (e)xit?".format(
                 hp, gold))
         if (decision == "e"):
-            print("You exit the dungeon. You found {} gold.".format(gold))
+            print("You exit the dungeon. You've found {} gold.".format(gold))
             break
         elif (decision == "c"):
             if (i % 2 == 0):
